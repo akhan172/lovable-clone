@@ -24,7 +24,8 @@ spring:
       base-url: https://openrouter.ai/api
       chat:
         options:
-          model: x-ai/grok-code-fast-1
+#          model: x-ai/grok-code-fast-1
+          model: google/gemini-3-flash-preview
           temperature: 0.0
 
 
